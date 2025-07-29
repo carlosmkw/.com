@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carlos MKW - Desarrollador Full Stack</title>
+    <title>Carlos MKW </title>
     <style>
         * {
             margin: 0;
@@ -128,7 +128,7 @@
         }
 
         .hero-image {
-            width: auto;
+            width: 500px;
             height: auto;
             margin: 0 auto 2rem;
             border-radius: 20px;
@@ -158,10 +158,13 @@
         }
 
         .hero .subtitle {
-            font-size: 1.5rem;
+            font-size: 2rem;
+            line-height: 1.4;
             color: #b0b0b0;
             margin-bottom: 2rem;
             animation: fadeInUp 1s ease-out 0.2s both;
+            text-align: center;    
+            width: 100%;  
         }
 
         .hero .description {
@@ -442,8 +445,8 @@
         @media (max-width: 768px) {
             
             .post-image {
-                height: 200px;  /* Más pequeña que los 200px originales */
-                font-size: 3rem; /* Ícono más pequeño también */
+                height: 400px;  /* Más pequeña que los 200px originales */
+                font-size: 4rem; /* Ícono más pequeño también */
             }
             .nav-links {
                 display: none;
@@ -481,7 +484,7 @@
     <!-- Navigation -->
     <nav id="navbar">
         <div class="nav-container">
-            <div class="logo">CMW</div>
+            <div class="logo"></div>
             <ul class="nav-links">
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
@@ -497,9 +500,9 @@
             <div class="hero-image">
                 <img src="./logo.png" alt="Carlos MKW Logo" id="hero-logo">
             </div>
-            <p class="subtitle">Administrador de sistemas windows, virtualización, redes y backup</p>
+            <p class="subtitle">Administrador de sistemas Windows, virtualización, redes, backup y almacenamiento de datos.</p>
             <p class="description">
-                18 años de experiencia, en activo.
+                Graduado en Sistemas de Telecomunicaciones e Informáticos en 2007 <br> 18 años de experiencia, en activo.
             </p>
             <div class="cta-buttons">
                 <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
@@ -510,11 +513,11 @@
 
     <!-- Skills Section -->
     <section id="habilidades" class="skills">
-        <h2 class="section-title">Mis Habilidades</h2>
+        <h2 class="section-title">Habilidades Destacadas</h2>
         <div class="skills-grid">
             <div class="skill-card">
-                <h3>Frontend Development</h3>
-                <p>Creación de interfaces de usuario modernas, responsivas y accesibles que ofrecen experiencias excepcionales.</p>
+                <h3>Administrador de sistemas de Backup</h3>
+                <p>Especialista en diseño, implementación y administración de soluciones de backup empresarial. Experiencia avanzada en estrategias de respaldo, recuperación ante desastres y políticas de retención de datos..</p>
                 <div class="tech-stack">
                     <span class="tech-tag">React</span>
                     <span class="tech-tag">Vue.js</span>
@@ -535,8 +538,8 @@
                 </div>
             </div>
             <div class="skill-card">
-                <h3>DevOps & Cloud</h3>
-                <p>Implementación de pipelines CI/CD, infraestructura como código y soluciones en la nube.</p>
+                <h3>Gestion en entornos de Virtualización VMWARE y Windows </h3>
+                <p>Administración y gestión de maquinas virtuales en entornos VMWARE. Montaje de maquetas para despliegues masivos.</p>
                 <div class="tech-stack">
                     <span class="tech-tag">AWS</span>
                     <span class="tech-tag">Docker</span>
@@ -548,6 +551,48 @@
         </div>
     </section>
 
+    <!-- Skills Section -->
+    <section id="habilidades" class="skills">
+        <h2 class="section-title">Otras Habilidades</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Administrador de sistemas de Backup</h3>
+                <p>Especialista en diseño, implementación y administración de soluciones de backup empresarial. Experiencia avanzada en estrategias de respaldo, recuperación ante desastres y políticas de retención de datos..</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Vue.js</span>
+                    <span class="tech-tag">TypeScript</span>
+                    <span class="tech-tag">Tailwind CSS</span>
+                    <span class="tech-tag">Next.js</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>Backend Development</h3>
+                <p>Desarrollo de APIs robustas, arquitecturas escalables y sistemas de bases de datos eficientes.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">PostgreSQL</span>
+                    <span class="tech-tag">MongoDB</span>
+                    <span class="tech-tag">Docker</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>Gestion en entornos de Virtualización VMWARE y Windows </h3>
+                <p>Administración y gestión de maquinas virtuales en entornos VMWARE. Montaje de maquetas para despliegues masivos.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">AWS</span>
+                    <span class="tech-tag">Docker</span>
+                    <span class="tech-tag">Kubernetes</span>
+                    <span class="tech-tag">GitHub Actions</span>
+                    <span class="tech-tag">Terraform</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
     <!-- Projects Section -->
     <section id="proyectos" class="projects">
         <div class="projects-container">
@@ -577,6 +622,49 @@
                 </div>
                 <div class="project-card">
                     <div class="project-image">🤖</div>
+                    <div class="project-content">
+                        <h3>AI Analytics Dashboard</h3>
+                        <p>Dashboard de análisis con inteligencia artificial para visualización de datos y predicciones automáticas.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Ver Demo →</a>
+                            <a href="#" class="project-link">Código →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <!-- Projects Section -->
+    <section id="proyectos" class="projects">
+        <div class="projects-container">
+            <h2 class="section-title">Consultorias Tecnológicas</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    
+                    <div class="project-content">
+                        <h3>E-commerce Platform</h3>
+                        <p>Plataforma completa de comercio electrónico con panel de administración, sistema de pagos y análisis en tiempo real.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Ver Demo →</a>
+                            <a href="#" class="project-link">Código →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>Aplicación de gestión de tareas con colaboración en tiempo real, notificaciones push y sincronización cross-platform.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Ver Demo →</a>
+                            <a href="#" class="project-link">Código →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    
                     <div class="project-content">
                         <h3>AI Analytics Dashboard</h3>
                         <p>Dashboard de análisis con inteligencia artificial para visualización de datos y predicciones automáticas.</p>
